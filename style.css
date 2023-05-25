@@ -10,6 +10,10 @@ body {
     color: #fff
 }
 
+section {
+    padding-top: 60px;
+}
+
 .container {
     width: 1180px;
     margin: 0;
@@ -23,6 +27,7 @@ body {
     line-height: 50px;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 50px;
 }
 
 .banner {
