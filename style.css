@@ -95,8 +95,8 @@ body {
 .halls-name {
     position: absolute;
     text-transform: uppercase;
-    top: 50%;
-    left: 50%;
+    top: 35%;
+    left: 45%;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
@@ -122,6 +122,14 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
     padding-left: 185px;
+}
+
+.creator {
+    width: 80px;
+    height: 80px;
+    border-radius: 45px;
+    background-size: cover;
+    background-position: right 921px;
 }
 
 .faq {
@@ -163,52 +171,27 @@ body {
     background-image: url(/img/open-purple.svg);
 }
 
-.contacts-logo {
-    padding-left: 30px;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-    list-style: none;
-    top: 4px;
+.contacts {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
 }
 
 .geo {
-    background-image: url(/img/contacts/location.svg);
+    padding-right: 36px;
 }
 
 .phone {
-    background-image: url(/img/contacts/phone.svg);
+    padding-right: 36px;
 }
 
-.mail {
-    background-image: url(/img/contacts/mail.svg);    
+.mail { 
+    padding-right: 26px;  
 }
 
-.social-icons {
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-    list-style: none;
-    display: inline;
-    padding-left: 0;
-    width: 50px;
-    height: 50px;
-    top: 40px;
+.img-link {
+    padding-right: 27px;
 }
-
-.vk {
-    background-image: url(/img/social/vk.svg);
-}
-
-.tg {
-    background-image: url(/img/social/telegramm.svg);
-}
-
-.pt {
-    background-image: url(/img/social/pinterest.svg);
-}
-
-.su {
-    background-image: url(/img/social/any-social.svg);
-}
-
