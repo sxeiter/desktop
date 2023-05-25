@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: auto;
+    width: 1440px;
+    background-color: #000;
+    color: #fff
+}
+
+.container {
+    width: 1180px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.block-header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.banner {
+    display: block;
+    height: 1165px;
+    margin: auto;
+    position: relative;
+    background-color: #000;
+}
+
+.banner::after {
+    content: "";
+    position: absolute;
+    background-image: url("./img/game-over.png");
+    top: 207px;
+    left: 635px;
+    width: 675px;
+    height: 762px;
+}
+
+.game-over {
+    display: inline;
+    position: absolute;
+    top: 146px;
+}
+
+.title {
+    display: block;
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 150px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.desc {
+    display: block;
+    font-size: 28px;
+    line-height: 50px;
+}
+
+.banner-image {
+    display: inline;
+    width: 675px;
+    height: 762px;
+    position: absolute;
+    left: 60%;
+}
+
+.old-vibes {
+    background-image: url(/img/rooms/80-vibes.png);
+}
+.star-wars {
+    background-image: url(/img/rooms/star-wars.png);
+}
+.wild-west {
+    background-image: url(/img/rooms/wild-west.png);
+}
+.neon-style {
+    background-image: url(/img/rooms/neon-style.png);
+}
+
+.halls {
+    position: relative;
+    height: 710px;
+    width: 1180px;
+    margin-bottom: 60px;
+}
+
+.halls-name {
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.violet {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #6C0287;
+}
+
+.we-are {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 185px;
+}
+
+.faq {
+    width: 1180px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.faq-element {
+    background-color: #fff;
+    color: #1C1A1A;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 30px 70px;
+    margin-bottom: 20px;
+    line-height: 46px;
+    list-style: none;
+}
+
+.faq-element:nth-child(even) {
+    color: #fff;
+    background-color: #440f51;
+}
+
+.faq-element:after {
+    float: right;
+    width: 46px;
+    height: 46px;
+    position: relative;
+}
+
+.faq-element:nth-child(even):after {
+    content: '';
+    background-image: url(/img/open.svg);
+}
+
+.faq-element:nth-child(odd):after {
+    content: '';
+    background-image: url(/img/open-purple.svg);
+}
+
+.contacts-logo {
+    padding-left: 30px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    list-style: none;
+    top: 4px;
+}
+
+.geo {
+    background-image: url(/img/contacts/location.svg);
+}
+
+.phone {
+    background-image: url(/img/contacts/phone.svg);
+}
+
+.mail {
+    background-image: url(/img/contacts/mail.svg);    
+}
+
+.social-icons {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    list-style: none;
+    display: inline;
+    padding-left: 0;
+    width: 50px;
+    height: 50px;
+    top: 40px;
+}
+
+.vk {
+    background-image: url(/img/social/vk.svg);
+}
+
+.tg {
+    background-image: url(/img/social/telegramm.svg);
+}
+
+.pt {
+    background-image: url(/img/social/pinterest.svg);
+}
+
+.su {
+    background-image: url(/img/social/any-social.svg);
+}
+
