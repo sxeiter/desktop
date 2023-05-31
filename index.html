@@ -4,27 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="normalize.css">
-    
+    <link rel="stylesheet" href="/css/index.css" />
     <title>Document</title>
   </head>
   <body>
-    <main class="container">
+    <div class="wrapper">
+      <main>
         <section class="banner">
-          <article class="game-over">
+          <div class="game-over">
             <h1 class="title">Game Over</h1>
-            <span class="desc">Новый формат игр и отдыха</span>
-          </article>
+            <p class="desc">Новый формат игр и отдыха</p>
+          </div>
         </section>
         <section>
         <h3 class="block-header">наши залы</h3>
-        <section class="halls old-vibes"><h2 class="halls-name">80's<br> vibes</h2></section>
-        <section class="halls star-wars"><h2 class="halls-name">star<br> wars</h2></section>
-        <section class="halls wild-west"><h2 class="halls-name">wild<br> west</h2></section>
-        <section class="halls neon-style"><h2 class="halls-name">neon<br> style</h2></section>
-      </section>
+          <ul>
+            <li class="halls old-vibes"><a href="#" class="halls-name">80's vibes</a></li>
+            <li class="halls star-wars"><a href="#" class="halls-name">star wars</a> </li>
+            <li class="halls wild-west"><a href="#" class="halls-name">wild west</a> </li>
+            <li class="halls neon-style"><a href="#" class="halls-name"> neon style</a></li>
+          </ul>
+        </section>
       <section><h3 class="block-header">забронировать</h3>
         <fieldset id="room">
           <legend>выбери зал</legend>
@@ -182,19 +182,57 @@
           <input type="checkbox" name="options" value="personal-data" id="personal-data" />Согласен на обработку данных
         </label>
       </form>
-    </section>
-  
+      </section>
+      <section class="block" id="about">
+        <h3 class="block-header">О нас</h3>
+
+        <p>
+          Для наших гостей мы создали
+          <i
+            >концептуально новое игровое пространство виртуальной
+            реальности</i
+          >
+          в центральной части города.
+        </p>
+
+        <p>
+          Каждый день мы стараемся создать для вас самую лучшую игровую
+          атмосферу и радовать Вас топовыми игровыми разработками со всего
+          мира.
+        </p>
+        <blockquote>
+          <p class="quote">
+            <b>GAME OVER</b> - это место незабываемых впечатлений
+          </p>
+          <p>
+            
+            
+          </p>
+        </blockquote>
+        <div class="arcadii">
+          <img src="/img/arkady.png" alt="Аркадий" class="creator">
+          <i
+              ><cite
+                >Аркадий Абакшин, создатель игровой территории GAME OVER</cite
+              ></i>
+        </div>
+      </section>
+
+
+
+
+
+
+
+  <!--
     <section class="block" id="about">
       <h3 class="block-header">О нас</h3>
-      <p>Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p><br> 
+      <p>Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
       <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
       <cite class="we-are"><p class="violet">“</p>  GAME OVER — это место незабываемых впечатлений <p class="violet">”</p> </cite>
 
-      <img src="/img/arkady.png" alt="основатель" class="creator">Аркадий Абакшин, <br> создатель игровой <br> территории GAME OVER
-
-
-
-    </section>
+      <img src="/img/arkady.png" alt="основатель" class="creator">Аркадий Абакшин, создатель игровой  территории GAME OVER
+    </section>-->
     <section class="block" id="faq">
       <h3 class="block-header">Частые вопросы</h3>
       <ul class="faq">
@@ -205,25 +243,29 @@
         <li class="faq-element">Какая комната самая популярная?</li>
       </ul>
     </section>
-  </main>
-  <footer class="container">
-    <address class="block" id="contacts">
-      <h3 class="block-header">Контакты</h3>
-      <!--<p class="contacts-logo geo">г. Москва<br> ул. Аквамарина, 16</p>
-      <p class="contacts-logo phone"><a href="tel:+89509302893">8(950)930-28-93</a></p>
-      <p class="contacts-logo mail"><a href="mailto:GameOver@gmail.com">GameOver@gmail.com</a></p>-->
-      <section class="contacts">
-        <p><a href="https://aquamarinehotel.ru/" target="_blank"><img src="/img/contacts/location.svg" alt="локация" class="geo">г. Москва<br> ул. Аквамарина, 16</a></p>
-        <p><a href="tel:+89509302893" target="_blank"><img src="/img/contacts/phone.svg" alt="номер телефона">8(950)930-28-93</a></p>
-        <p><a href="mailto:GameOver@gmail.com" target="_blank"><img src="/img/contacts/mail.svg" alt="">GameOver@gmail.com</a></p>
-      </section>
-      <section class="social-icons">
-        <a href="http://vk.com" target="_blank"><img src="/img/social/pinterest.svg" alt="Pinterest" class="img-link"></a>
-        <a href="http://web.telegram.org" target="_blank"><img src="/img/social/telegramm.svg" alt="Pinterest" class="img-link"></a>
-        <a href="https://ru.pinterest.com/" target="_blank"><img src="/img/social/pinterest.svg" alt="Pinterest" class="img-link"></a>
-        <a href="https://www.stumbleupon.com/" target="_blank"><img src="/img/social/any-social.svg" alt="stumbleupon" class="img-link"></a>
-      </section>
-    </address>
-  </footer>
+      </main>
+      <footer>
+        <h3 class="block-header">Контакты</h3>
+        <section class="contacts">
+          <ul class="call-us">
+            <li class="contacts-logo geo"><img src="/img/contacts/location.svg" alt="локация" class="geo"><a href="https://aquamarinehotel.ru/" target="_blank"></a>г. Москва ул. Аквамарина, 16</li>
+            <li class="contacts-logo phone"><img src="/img/contacts/phone.svg" alt="номер телефона"><a href="tel:+89509302893">8(950)930-28-93</a></li>
+            <li class="contacts-logo mail"><img src="/img/contacts/mail.svg" alt="почта"><a href="mailto:GameOver@gmail.com">GameOver@gmail.com</a> </li>
+          </ul>
+<!--
+  не работает, не понимаю почему у меня не стилизуются ссылки тут, хотя я задаю стили для них
+-->
+
+        </section>
+        <section class="block">
+          <ul>
+            <li class="img-link"><a href="#" target="_blank"><img src="/img/social/pinterest.svg" alt="Pinterest" ></a></li>
+            <li class="img-link"><a href="#" target="_blank"><img src="/img/social/telegramm.svg" alt="Pinterest" ></a></li>
+            <li class="img-link"><a href="#" target="_blank"><img src="/img/social/pinterest.svg" alt="Pinterest" ></a></li>
+            <li class="img-link"><a href="#" target="_blank"><img src="/img/social/any-social.svg" alt="stumbleupon" ></a></li>
+          </ul>
+        </section>
+      </footer>
+    </div>
   </body>
 </html>

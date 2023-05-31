@@ -4,20 +4,26 @@
 }
 
 body {
-    margin: auto;
-    width: 1440px;
-    background-color: #000;
+    background-color: #1b1a1b;
     color: #fff
 }
 
-section {
-    padding-top: 60px;
+h1, h2, h3, p {
+    margin: 0;
 }
 
-.container {
-    width: 1180px;
-    margin: 0;
-    margin-bottom: 50px;
+ul {
+    padding-left: 0;
+}
+
+section:not(:last-child) {
+    margin-bottom: 100px;
+}
+
+.wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 60px;
 }
 
 .block-header {
@@ -30,28 +36,19 @@ section {
     margin-bottom: 50px;
 }
 
-.banner {
-    display: block;
-    height: 1165px;
-    margin: auto;
+.game-over {
     position: relative;
-    background-color: #000;
+    min-height: 800px;
 }
 
-.banner::after {
+.game-over::after {
     content: "";
     position: absolute;
-    background-image: url("./img/game-over.png");
-    top: 207px;
-    left: 635px;
+    background-image: url("/img/game-over.png");
+    right: 0;
+    bottom: 0;
     width: 675px;
     height: 762px;
-}
-
-.game-over {
-    display: inline;
-    position: absolute;
-    top: 146px;
 }
 
 .title {
@@ -61,12 +58,14 @@ section {
     line-height: 150px;
     margin: 0;
     text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 .desc {
     display: block;
     font-size: 28px;
     line-height: 50px;
+    padding-left: 100px;
 }
 
 .banner-image {
@@ -93,20 +92,24 @@ section {
 .halls {
     position: relative;
     height: 710px;
-    width: 1180px;
     margin-bottom: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    list-style: none;
+    padding-left: 0;
 }
 
 .halls-name {
-    position: absolute;
     text-transform: uppercase;
-    top: 35%;
-    left: 45%;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
     font-size: 70px;
     line-height: 80px;
+    padding-top: 50%;
+    text-decoration: none;
+    color: #fff;
+    white-space: break-spaces;
 }
 
 .violet {
@@ -129,51 +132,18 @@ section {
     padding-left: 185px;
 }
 
+.arcadii {
+    display: inline-block;
+    margin: 0 0 auto;
+    overflow: hidden;
+}
+
 .creator {
     width: 80px;
     height: 80px;
     border-radius: 45px;
     background-size: cover;
-    background-position: right 921px;
-}
-
-.faq {
-    width: 1180px;
-    margin: 0;
-    margin-bottom: 50px;
-}
-
-.faq-element {
-    background-color: #fff;
-    color: #1C1A1A;
-    font-weight: 700;
-    font-size: 24px;
-    padding: 30px 70px;
-    margin-bottom: 20px;
-    line-height: 46px;
-    list-style: none;
-}
-
-.faq-element:nth-child(even) {
-    color: #fff;
-    background-color: #440f51;
-}
-
-.faq-element:after {
-    float: right;
-    width: 46px;
-    height: 46px;
-    position: relative;
-}
-
-.faq-element:nth-child(even):after {
-    content: '';
-    background-image: url(/img/open.svg);
-}
-
-.faq-element:nth-child(odd):after {
-    content: '';
-    background-image: url(/img/open-purple.svg);
+    background-position: right;
 }
 
 .contacts {
@@ -185,18 +155,17 @@ section {
     color: #FFFFFF;
 }
 
-.geo {
-    padding-right: 36px;
-}
-
-.phone {
-    padding-right: 36px;
-}
-
-.mail { 
-    padding-right: 26px;  
+.contacts-logo {
+    text-decoration: none;
 }
 
 .img-link {
+    display: inline-block;
     padding-right: 27px;
 }
+
+.call-us {
+    text-decoration: none;
+}
+
+
