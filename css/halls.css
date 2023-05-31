@@ -1,0 +1,36 @@
+.old-vibes {
+    background-image: url(/img/rooms/80-vibes.png);
+}
+.star-wars {
+    background-image: url(/img/rooms/star-wars.png);
+}
+.wild-west {
+    background-image: url(/img/rooms/wild-west.png);
+}
+.neon-style {
+    background-image: url(/img/rooms/neon-style.png);
+}
+
+.halls {
+    position: relative;
+    margin-bottom: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.halls-name {
+    display: block;
+    text-transform: uppercase;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    padding: 275px 0;
+    text-decoration: none;
+    color: #fff;
+    white-space: break-spaces;
+}

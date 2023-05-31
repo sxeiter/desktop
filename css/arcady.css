@@ -1,0 +1,13 @@
+.arcadii {
+    display: inline-block;
+    margin: 0 0 auto;
+    overflow: hidden;
+}
+
+.creator {
+    width: 80px;
+    height: 80px;
+    border-radius: 45px;
+    object-fit: cover;
+    object-position: right;
+}

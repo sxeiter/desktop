@@ -10,6 +10,8 @@ html {
   }
   
   body {
+    background-color: #1b1a1b;
+    color: #fff;
     min-width: 320px;
     min-height: 100vh;
     font-family: Arial, sans-serif;
@@ -62,6 +64,16 @@ html {
     position: fixed;
     transform: scale(0);
   }
+
+section:not(:last-child) {
+    margin-bottom: 100px;
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
   
   
   /*
@@ -73,9 +85,9 @@ html {
   Чтобы контент не прижимался к краям экрана
   */
   
-  .container {
+  /*.container {
     max-width: 1240px;
     padding: 0 30px;
     margin: 0 auto;
-  }
+  }*/
   

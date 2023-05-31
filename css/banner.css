@@ -1,0 +1,22 @@
+.game-over {
+    position: relative;
+    min-height: 830px;
+}
+
+.game-over::after {
+    content: "";
+    position: absolute;
+    background-image: url("/img/game-over.png");
+    right: 0;
+    bottom: 0;
+    width: 675px;
+    height: 762px;
+}
+
+.banner-image {
+    display: inline;
+    width: 675px;
+    height: 762px;
+    position: absolute;
+    left: 60%;
+}
