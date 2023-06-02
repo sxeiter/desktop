@@ -1,18 +1,28 @@
 .contacts {
-    font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    color: #FFFFFF;
+    margin-bottom: 50px;
+    
 }
 
 .contacts-logo {
     text-decoration: none;
+    white-space: pre-line;
+}
+
+.links {
+    padding-left: 55px;
+    line-height: 38px;
 }
 
 .img-link {
+    margin-top: 40px;
     display: inline-block;
+}
+
+.img-link:not(:last-child) {
     padding-right: 27px;
 }
 

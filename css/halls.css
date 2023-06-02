@@ -24,13 +24,14 @@
 .halls-name {
     display: block;
     text-transform: uppercase;
-    font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
     font-size: 70px;
     line-height: 80px;
     padding: 275px 0;
+    margin: 0 464px;
     text-decoration: none;
     color: #fff;
-    white-space: break-spaces;
+    max-width: 260px;
+    white-space: pre-line;
 }

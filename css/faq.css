@@ -1,5 +1,4 @@
-.faq {
-    
+.faq:not(:last-child) {
     margin: 0;
     margin-bottom: 50px;
 }

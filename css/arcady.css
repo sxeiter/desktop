@@ -1,7 +1,48 @@
-.arcadii {
-    display: inline-block;
-    margin: 0 0 auto;
+.block {
     overflow: hidden;
+}
+
+.text {
+    margin-bottom: 38px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.quote-one {
+    quotes: \201e;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #6C0287;
+    white-space: pre-line;
+    max-width: 1125px;
+}
+
+.quote {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    width: 1300px;
+    margin-top: 38px;
+    margin-bottom: 38px;
+
+}
+
+.arcadii {
+    display: block;
+    margin: 0 0 auto;
+    float: right;
+}
+
+.fig {
+    display: inline-block;
+    max-width: 280px;
+    padding-left: 30px;
+    white-space: pre-line;
 }
 
 .creator {
@@ -9,5 +50,5 @@
     height: 80px;
     border-radius: 45px;
     object-fit: cover;
-    object-position: right;
+    object-position: top;
 }
