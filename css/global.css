@@ -84,4 +84,10 @@ html {
     padding: 0 30px;
     margin: 0 auto;
   }
+
+  .footer {
+    max-width: 1240px;
+    padding: 50px 30px;
+    margin: 0 auto;
+  }
   
