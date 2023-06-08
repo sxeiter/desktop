@@ -8,34 +8,38 @@
     <title>Document</title>
   </head>
   <body>
-    
-      <section class="banner">
+      <header class="header">
         <div class="container">
           <div class="game-over">
-            <h1 class="title">Game Over</h1>
-            <p class="desc">Новый формат игр и отдыха</p>
+            <h1 class="header__title">Game Over</h1>
+            <p class="header-paragraph">Новый формат игр и отдыха</p>
           </div>
         </div>
-      </section>
-      <section>
+      </header>
+
+      <section class="halls">
         <div class="container">
-          <h3 class="block-header">наши залы</h3>
-          <ul>
-            <li class="halls old-vibes"><a href="#" class="halls-name">80's 
+          <h3 class="subtitle">наши залы</h3>
+          <ul class="halls__list">
+            <li class="halls__item old-vibes">
+              <a href="#" class="halls__link">80's 
               vibes</a></li>
-            <li class="halls star-wars"><a href="#" class="halls-name">star 
+            <li class="halls__item star-wars">
+              <a href="#" class="halls__link">star 
               wars</a> </li>
-            <li class="halls wild-west"><a href="#" class="halls-name">wild 
+            <li class="halls__item wild-west">
+              <a href="#" class="halls__link">wild 
               west</a> </li>
-            <li class="halls neon-style"><a href="#" class="halls-name"> neon
+            <li class="halls__item neon-style">
+              <a href="#" class="halls__link"> neon
                style</a></li>
           </ul>
         </div>
-        
       </section>
+
       <section class="reserve">
         <div class="container">
-          <h3 class="block-header">забронировать</h3>
+          <h3 class="subtitle">забронировать</h3>
         <fieldset id="room">
           <legend>выбери зал</legend>
           <label for="vibes">
@@ -195,58 +199,60 @@
         </div>
         
       </section>
+
       <section class="block" id="about">
         <div class="container">
-          <h3 class="block-header">О нас</h3>
-        <p class="text">
-          Для наших гостей мы создали
-          концептуально новое игровое пространство виртуальной
-            реальности
-          в центральной части города.
-        </p>
-        <p class="text">
-          Каждый день мы стараемся создать для вас самую лучшую игровую
-          атмосферу и радовать Вас топовыми игровыми разработками со всего
-          мира.
-        </p>
-        <blockquote class="bq">
-          <q class="quote-one"> <span class="quote">GAME OVER —<br> это место незабываемых впечатлений</span>  </q>
-        </blockquote>
-        <figure class="arcadii">
-          <img src="/img/arkady.png" alt="Аркадий" class="creator">
-        <figcaption class="fig">Аркадий Абакшин,<br> создатель игровой<br> территории GAME OVER</figcaption>
-        </figure>
+          <h3 class="subtitle">О нас</h3>
+          <p class="about-us__paragraph">
+            Для наших гостей мы создали
+            концептуально новое игровое пространство виртуальной
+              реальности
+            в центральной части города.
+          </p>
+          <p class="about-us__paragraph">
+            Каждый день мы стараемся создать для вас самую лучшую игровую
+            атмосферу и радовать Вас топовыми игровыми разработками со всего
+            мира.
+          </p>
+          <blockquote class="about-us__bq">
+            <q class="about-us__quote"> <span class="about-us__cite">GAME OVER —<br> это место незабываемых впечатлений</span>  </q>
+          </blockquote>
+          <figure class="about-us__image">
+            <img src="/img/arkady.png" alt="Аркадий" class="about-us__icon">
+          <figcaption class="about-us__decrioption">Аркадий Абакшин,<br> создатель игровой<br> территории GAME OVER</figcaption>
+          </figure>
         </div>
-        
+
       </section>
+      
       <section class="block" id="faq">
         <div class="container">
-          <h3 class="block-header">Частые вопросы</h3>
-      <ul class="faq">
-        <li class="faq-element">Можно ли забронировать комнату онлайн?</li>
-        <li class="faq-element">Могут ли мне вернуть деньги за бронь?</li>
-        <li class="faq-element">Какая комната самая лучшая</li>
-        <li class="faq-element">Как получить VIP карту?</li>
-        <li class="faq-element">Какая комната самая популярная?</li>
-      </ul>
+          <h3 class="subtitle">Частые вопросы</h3>
+          <ul class="faq__list">
+            <li class="faq__item">Можно ли забронировать комнату онлайн?</li>
+            <li class="faq__item">Могут ли мне вернуть деньги за бронь?</li>
+            <li class="faq__item">Какая комната самая лучшая</li>
+            <li class="faq__item">Как получить VIP карту?</li>
+            <li class="faq__item">Какая комната самая популярная?</li>
+          </ul>
         </div>
-      
       </section>
+
       <footer class="footer">
         <div class="container">
-          <h3 class="block-header">Контакты</h3>
+          <h3 class="subtitle">Контакты</h3>
           <address class="contacts">
-            <ul class="call-us">
-              <li class="contacts-logo "><img src="/img/contacts/location.svg" alt="локация" ><a href="https://aquamarinehotel.ru/" target="_blank" class="links"></a>г. Москва
+            <ul class="contacts__list">
+              <li class="contacts__item"><img src="/img/contacts/location.svg" alt="локация" ><a href="https://aquamarinehotel.ru/" target="_blank" class="contacts__links"></a>г. Москва
                  ул. Аквамарина, 16</li>
-              <li class="contacts-logo phone"><img src="/img/contacts/phone.svg" alt="номер телефона"><a href="tel:+89509302893" class="links">8(950)930-28-93</a></li>
-              <li class="contacts-logo mail"><img src="/img/contacts/mail.svg" alt="почта"><a href="mailto:GameOver@gmail.com" class="links">GameOver@gmail.com</a> </li>
+              <li class="contacts__item phone"><img src="/img/contacts/phone.svg" alt="номер телефона"><a href="tel:+89509302893" class="contacts__links">8(950)930-28-93</a></li>
+              <li class="contacts__item mail"><img src="/img/contacts/mail.svg" alt="почта"><a href="mailto:GameOver@gmail.com" class="contacts__links">GameOver@gmail.com</a> </li>
             </ul>
-            <ul>
-              <li class="img-link"><a href="#" target="_blank"><img src="/img/social/vk.svg" alt="vk" ></a></li>
-              <li class="img-link"><a href="#" target="_blank"><img src="/img/social/telegramm.svg" alt="tg" ></a></li>
-              <li class="img-link"><a href="#" target="_blank"><img src="/img/social/pinterest.svg" alt="Pinterest" ></a></li>
-              <li class="img-link"><a href="#" target="_blank"><img src="/img/social/any-social.svg" alt="stumbleupon" ></a></li>
+            <ul class="social__list">
+              <li class="social__item"><a href="#" target="_blank" class="social__link"><img src="/img/social/vk.svg" alt="vk" ></a></li>
+              <li class="social__item"><a href="#" target="_blank"><img src="/img/social/telegramm.svg" alt="tg" ></a></li>
+              <li class="social__item"><a href="#" target="_blank"><img src="/img/social/pinterest.svg" alt="Pinterest" ></a></li>
+              <li class="social__item"><a href="#" target="_blank"><img src="/img/social/any-social.svg" alt="stumbleupon" ></a></li>
             </ul>
           </address>
         </div>

@@ -1,41 +1,40 @@
-.faq:not(:last-child) {
-    margin: 0;
-    margin-bottom: 50px;
+.faq__list:not(:last-child) {
+  margin: 0;
+  margin-bottom: 50px;
 }
 
-.faq-element {
-    background-color: #fff;
-    color: #1C1A1A;
-    font-weight: 700;
-    font-size: 24px;
-    padding: 30px 70px;
-    
-    line-height: 46px;
-    list-style: none;
+.faq__item {
+  background-color: #fff;
+  color: #1c1a1a;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 30px 70px;
+  line-height: 46px;
+  list-style: none;
 }
 
-.faq-element:not(:last-child) {
-    margin-bottom: 20px;
+.faq__item:not(:last-child) {
+  margin-bottom: 20px;
 }
 
-.faq-element:nth-child(even) {
-    color: #fff;
-    background-color: #440f51;
+.faq__item:nth-child(even) {
+  color: #fff;
+  background-color: #440f51;
 }
 
-.faq-element:after {
-    float: right;
-    width: 46px;
-    height: 46px;
-    position: relative;
+.faq__item:after {
+  float: right;
+  width: 46px;
+  height: 46px;
+  position: relative;
 }
 
-.faq-element:nth-child(even):after {
-    content: '';
-    background-image: url(/img/open.svg);
+.faq__item:nth-child(even):after {
+  content: "";
+  background-image: url(/img/open.svg);
 }
 
-.faq-element:nth-child(odd):after {
-    content: '';
-    background-image: url(/img/open-purple.svg);
+.faq__item:nth-child(odd):after {
+  content: "";
+  background-image: url(/img/open-purple.svg);
 }

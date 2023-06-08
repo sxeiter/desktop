@@ -9,8 +9,8 @@
   <body>
     <header class="header">
       <div class="container">
-        <h1 class="header__title"></h1>
-        <p class="header-paragraph"></p>
+        <h1 class="header__title">GAME OVER</h1>
+        <p class="header-paragraph">Новый формат игр и отдыха</p>
       </div>
     </header>
 
@@ -38,6 +38,162 @@
       <section class="reserve">
         <div class="container">
           <h3 class="reserve__title">Забронировать</h3>
+          <fieldset id="room">
+          <legend>выбери зал</legend>
+          <label for="vibes">
+            <input
+              type="radio"
+              name="rooms"
+              value="80's vibes"
+              id="vibes"
+            />80's vibes
+          </label>
+          <label for="starwars">
+            <input
+              type="radio"
+              name="rooms"
+              value="Star wars"
+              id="starwars"
+            />Star wars
+          </label>
+          <label for="wildwest">
+            <input
+              type="radio"
+              name="rooms"
+              value="Wild west"
+              id="wildwest"
+            />Wild west
+          </label>
+          <label for="neonstyle">
+            <input
+              type="radio"
+              name="rooms"
+              value="Neon style"
+              id="neonstyle"
+            />Neon style
+          </label>
+          </fieldset>
+          <fieldset>
+          <legend>Собери набор развлечений</legend>
+          <fieldset>
+            <legend>Приставка</legend>
+            <label for="PlayStation">
+              <input
+                type="radio"
+                name="gameStation"
+                value="PlayStation"
+                id="PlayStation"
+              />PlayStation
+            </label>
+            <label for="Sega">
+              <input
+                type="radio"
+                name="gameStation"
+                value="Sega"
+                id="Sega"
+              />Sega Mega Drive
+            </label>
+            <label for="X-Box">
+              <input
+                type="radio"
+                name="gameStation"
+                value="X-Box"
+                id="X-Box"
+              />X-box One S
+            </label>
+            <label for="Dendy">
+              <input
+                type="radio"
+                name="gameStation"
+                value="Dendy"
+                id="Dendy"
+              />Dendy
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Настольные игры</legend>
+            <label for="Jenga">
+              <input
+                type="checkbox"
+                name="boardGame"
+                value="Jenga"
+                id="Jenga"
+              />Jenga
+            </label>
+            <label for="Monopoly">
+              <input
+                type="checkbox"
+                name="boardGame"
+                value="Monopoly"
+                id="Monopoly"
+              />Monopoly
+            </label>
+            <label for="Manchkin">
+              <input
+                type="checkbox"
+                name="boardGame"
+                value="Manchkin"
+                id="Manchkin"
+              />Манчкин
+            </label>
+            <label for="Alias">
+              <input
+                type="checkbox"
+                name="boardGame"
+                value="Alias"
+                id="Alias"
+              />Alias
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Дополнительно</legend>
+            <label for="Karaoke">
+              <input
+                type="checkbox"
+                name="options"
+                value="Karaoke"
+                id="Karaoke"
+              />Караоке
+            </label>
+            <label for="VR">
+              <input type="checkbox" name="options" value="VR" id="VR" />VR
+            </label>
+          </fieldset>
+          </fieldset>
+          <fieldset>
+          <legend>Выбери дату и время</legend>
+          <label for="date">Дата</label>
+          <input type="date" name="date" id="my-date" required />
+          <label for="time">Время</label>
+          <input type="time" name="time" id="my-time" required />
+          
+          <label for="number">Количество человек</label>
+          <input
+            type="number"
+            name="number"
+            id="my-number"
+            required
+            placeholder="Сколько человек"
+          />
+          
+          <label for="my-name">Имя*</label>
+          <input type="text" name="name" id="my-name" required />
+          
+          <label for="my-surname">Фамилия*</label>
+          <input type="text" name="surname" id="my-surname" required />
+          
+          <label for="my-tel">Номер телефона*</label>
+          <input type="tel" name="tel" id="my-tel" required />
+          
+          <label for="VR">
+            <input type="checkbox" name="options" value="checkold" id="old" />Я старше 18 лет
+          </label>
+          </fieldset>
+          <button type="submit">Забронировать</button>
+          <label for="VR">
+          <input type="checkbox" name="options" value="personal-data" id="personal-data" />Согласен на обработку данных
+          </label>
+          </form>
         </div>
       </section>
 

@@ -1,31 +1,29 @@
 .contacts {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
 }
 
-.contacts-logo {
-    text-decoration: none;
-    white-space: pre-line;
+.contacts__list {
+  text-decoration: none;
+  margin-bottom: 40px;
 }
 
-.links {
-    padding-left: 55px;
-    line-height: 38px;
+.contacts__item {
+  text-decoration: none;
+  white-space: pre-line;
 }
 
-.img-link {
-    display: inline-block;
+.contacts__links {
+  padding-left: 55px;
+  line-height: 38px;
 }
 
-.img-link:not(:last-child) {
-    margin-right: 27px;
+.social__item {
+  display: inline-block;
 }
 
-.call-us {
-    text-decoration: none;
-    margin-bottom: 40px;
+.social__item:not(:last-child) {
+  margin-right: 27px;
 }
-
-
