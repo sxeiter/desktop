@@ -1,8 +1,8 @@
 @import "/css/normalize.css";
 @import "/css/global.css";
-@import "/css/style.css";
+@import "header.css";
 @import "/css/banner.css";
 @import "halls.css";
 @import "/css/faq.css";
-@import "/css/arcady.css";
+@import "/css/about-us.css";
 @import "/css/address.css";
