@@ -1,11 +1,31 @@
+.about-us {
+}
+
+.test {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.test:not(:last-child) {
+  margin-right: 40px;
+}
+
 .about-us__bq {
   margin: 0;
+  width: 469px;
+  height: 191px;
+  margin-bottom: 41px;
 }
 
 .about-us__paragraph {
-  margin-bottom: 38px;
   font-size: 20px;
   line-height: 28px;
+  width: 500px;
+  height: 111px;
+}
+
+.about-us__paragraph:not(:last-child) {
+  margin-bottom: 38px;
 }
 
 .about-us__quote {
@@ -52,21 +72,7 @@
   object-position: top;
 }
 
-.about-us {
-}
-.about-us__bq {
-}
-.about-us__cite {
-}
-.about-us__decrioption {
-}
-.about-us__icon {
-}
-.about-us__image {
-}
-.about-us__paragraph {
-}
-.about-us__quote {
-}
-.about-us__title {
+.about-us__photo {
+  width: 600px;
+  height: 596px;
 }
