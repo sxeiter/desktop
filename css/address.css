@@ -27,3 +27,13 @@
 .social__item:not(:last-child) {
   margin-right: 27px;
 }
+
+.contacts__location {
+  padding-left: 58px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.contacts__location_street {
+  padding-left: 91px;
+}

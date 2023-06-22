@@ -1,19 +1,23 @@
-.about-us {
+.about-us__bg {
+  background-image: url(/img/photos\ 1.png);
+  width: 600px;
+  margin-right: 40px;
 }
 
-.test {
+.about-us__text {
+  width: 500px;
+  padding-left: 40px;
+}
+
+.about-us__content {
   display: inline-block;
   vertical-align: top;
-}
-
-.test:not(:last-child) {
-  margin-right: 40px;
+  min-height: 596px;
 }
 
 .about-us__bq {
   margin: 0;
-  width: 469px;
-  height: 191px;
+  width: 500px;
   margin-bottom: 41px;
 }
 
@@ -21,7 +25,6 @@
   font-size: 20px;
   line-height: 28px;
   width: 500px;
-  height: 111px;
 }
 
 .about-us__paragraph:not(:last-child) {
@@ -46,7 +49,6 @@
   line-height: 50px;
   text-transform: uppercase;
   color: #fff;
-  width: 1300px;
   margin-top: 38px;
   margin-bottom: 38px;
 }
@@ -62,6 +64,7 @@
   max-width: 280px;
   padding-left: 30px;
   white-space: pre-line;
+  line-height: 28px;
 }
 
 .about-us__icon {
@@ -70,9 +73,4 @@
   border-radius: 45px;
   object-fit: cover;
   object-position: top;
-}
-
-.about-us__photo {
-  width: 600px;
-  height: 596px;
 }
