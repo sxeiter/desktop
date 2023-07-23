@@ -18,6 +18,14 @@
   list-style: none;
   padding-left: 0;
   text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  width: 580px;
+  height: 349px;
+}
+
+.halls__item:not(:nth-child(2n)) {
+  margin-right: 10px;
 }
 
 .halls__link {
@@ -27,12 +35,12 @@
   font-weight: 700;
   font-size: 70px;
   line-height: 80px;
-  padding: 275px 0;
+  padding: 125px 0;
   text-decoration: none;
   color: #fff;
-  white-space: pre-line;
+  text-align: center;
 }
 
 .halls__item:not(:last-child) {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }

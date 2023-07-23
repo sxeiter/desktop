@@ -1,0 +1,22 @@
+.comment__item {
+  display: inline-block;
+  max-width: 980px;
+}
+
+.comment__item:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.comment__image {
+  float: left;
+  margin-right: 20px;
+}
+
+.comment__review {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
