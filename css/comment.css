@@ -1,6 +1,10 @@
+.comment__list {
+  max-width: 980px;
+  margin: 0 100px;
+}
+
 .comment__item {
   display: inline-block;
-  max-width: 980px;
 }
 
 .comment__item:not(:last-child) {
