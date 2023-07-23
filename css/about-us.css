@@ -1,12 +1,11 @@
 .about-us__bg {
   background-image: url(/img/photos\ 1.png);
   width: 600px;
-  margin-right: 40px;
+  margin-right: 75px;
 }
 
 .about-us__text {
-  width: 500px;
-  padding-left: 40px;
+  max-width: 500px;
 }
 
 .about-us__content {

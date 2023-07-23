@@ -12,12 +12,22 @@
 
 .contacts__item {
   text-decoration: none;
-  white-space: pre-line;
+
+  position: relative;
+  max-width: 300px;
+  padding-left: 50px;
+  margin-bottom: 15px;
 }
 
 .contacts__links {
-  padding-left: 55px;
   line-height: 38px;
+}
+
+.contacts__img {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .social__item {
@@ -29,7 +39,7 @@
 }
 
 .contacts__location {
-  padding-left: 58px;
+  padding-left: 15px;
   margin-top: 0;
   padding-top: 0;
 }
