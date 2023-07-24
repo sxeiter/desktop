@@ -31,10 +31,10 @@
 
 .faq__item:nth-child(even):after {
   content: "";
-  background-image: url("/img/open.svg");
+  background-image: url("../img/open/open.svg");
 }
 
 .faq__item:nth-child(odd):after {
   content: "";
-  background-image: url("/img/open-purple.svg");
+  background-image: url("../img/open/open-purple.svg");
 }

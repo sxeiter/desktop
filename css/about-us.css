@@ -1,5 +1,5 @@
 .about-us__bg {
-  background-image: url("/img/collage.png");
+  background-image: url("../img/collage/collage.png");
   width: 600px;
   margin-right: 75px;
 }
