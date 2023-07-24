@@ -1,14 +1,14 @@
 .old-vibes {
-  background-image: url(/img/rooms/80-vibes.png);
+  background-image: url(../img/rooms/80-vibes.png);
 }
 .star-wars {
-  background-image: url(/img/rooms/star-wars.png);
+  background-image: url(../img/rooms/star-wars.png);
 }
 .wild-west {
-  background-image: url(/img/rooms/wild-west.png);
+  background-image: url(../img/rooms/wild-west.png);
 }
 .neon-style {
-  background-image: url(/img/rooms/neon-style.png);
+  background-image: url(../img/rooms/neon-style.png);
 }
 
 .halls__item {
