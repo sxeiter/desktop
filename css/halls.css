@@ -21,11 +21,10 @@
   display: inline-block;
   vertical-align: top;
   width: 580px;
-  height: 349px;
 }
 
 .halls__item:not(:nth-child(2n)) {
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .halls__link {
@@ -41,6 +40,6 @@
   text-align: center;
 }
 
-.halls__item:not(:last-child) {
+.halls__item:not(:nth-last-child(-n + 2)) {
   margin-bottom: 20px;
 }
