@@ -1,0 +1,39 @@
+.vr {
+  background-image: url("../img/our/vr.png");
+}
+.audio {
+  background-image: url("../img/our/dj.png");
+}
+.karaoke {
+  background-image: url("../img/our/karaoke.png");
+}
+.table-game {
+  background-image: url("../img/our/domino.png");
+}
+.cinema {
+  background-image: url("../img/our/netflix.png");
+}
+.game-station {
+  background-image: url("../img/our/playstation.png");
+}
+
+.our__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.our__item {
+  width: 380px;
+  height: 228px;
+  background-color: wheat;
+}
+
+.our__text {
+  padding-left: 40px;
+  padding-top: 166px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}

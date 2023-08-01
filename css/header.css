@@ -1,0 +1,142 @@
+header {
+  padding-top: 30px;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+.header__navigation {
+  margin-bottom: 50px;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header__image {
+  display: block;
+}
+
+.header__item {
+  min-width: 63px;
+  min-height: 50px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.header__item-margin {
+  margin-right: 57px;
+}
+
+.header__item-btn {
+  flex-basis: 280px;
+  border: 3px solid #cd06ff;
+  border-radius: 10px;
+  padding: 12px 29px;
+}
+
+.header__link-call {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.header__title-container {
+  height: 835px;
+  position: relative;
+}
+
+.header__title-container::after {
+  content: url("/img/banner/game-over.png");
+  position: absolute;
+  top: 73px;
+  right: 17px;
+  height: 762px;
+  width: 675px;
+}
+.header__title {
+  display: inline-block;
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 100%;
+  letter-spacing: -0.1em;
+}
+
+.header__label {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 50px;
+  color: #ffffff;
+  padding-left: 100px;
+}
+
+.header__column {
+  height: 209px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 40px;
+  margin-bottom: 150px;
+}
+
+.header__text {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+  width: 193px;
+}
+
+.header__text-4 {
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 141px;
+  color: #cd06ff;
+}
+
+.header__text-new {
+  width: 166px;
+  height: 106px;
+  font-weight: 900;
+  font-size: 75px;
+  line-height: 106px;
+  font-variant: all-small-caps;
+  color: #cd06ff;
+  align-self: flex-end;
+}
+
+.header__text-newest {
+  width: 163px;
+}
+
+.header__button-btn {
+  width: 374px;
+  height: 80px;
+  padding: 25px;
+  background-color: #6c0287;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: transparent;
+}
+
+.header__button-btn2 {
+  position: absolute;
+  width: 97px;
+  height: 97px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  border-radius: 50px;
+  right: 544px;
+  z-index: 2;
+  top: 660px;
+}

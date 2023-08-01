@@ -1,0 +1,159 @@
+.booking {
+  background-color: #440f51;
+}
+
+.booking__text {
+  margin: 0 auto 40px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.booking__title {
+  display: block;
+  padding-right: 70px;
+  margin: 0 auto 40px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.booking__title-inline {
+  display: inline-block;
+}
+
+.booking__hall {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  border: none;
+}
+
+.booking__btn {
+  flex-basis: 250px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  background-color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 7px 15px;
+  border-radius: 8px;
+  border: inherit;
+}
+
+.booking__funs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+  border: none;
+}
+
+.booking__play-table {
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+.booking__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.booking__radio,
+.booking__checkbox {
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+  margin-right: 12px;
+  vertical-align: bottom;
+}
+
+.booking__label {
+  font-size: 22px;
+  line-height: 25px;
+  height: 40px;
+  border: none;
+}
+
+.booking__label:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.booking__date-time {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  row-gap: 14px;
+  justify-content: center;
+  margin-bottom: 40px;
+  align-content: end;
+  border: none;
+}
+
+.booking__day-time {
+  width: 134px;
+  height: 52px;
+  padding: 12px 20px;
+}
+
+.booking__legend {
+  margin-right: 50px;
+}
+
+.booking__legend:first-of-type {
+  margin-right: 32px;
+}
+
+.booking__day-time--long {
+  display: block;
+  width: 280px;
+  height: 52px;
+}
+
+.booking__day-time--long-very {
+  display: block;
+  width: 300px;
+}
+
+.booking__submit {
+  width: 300px;
+  height: 60px;
+  padding: 16px 50px;
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #6c0287;
+  margin-bottom: 80px;
+  border-radius: 10px;
+  border: none;
+  background-color: #fff;
+}
+
+.booking__btn-submit {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 125px;
+}
+
+.booking__legend--arrow {
+  position: relative;
+}
+
+.booking__legend--arrow::after {
+  position: absolute;
+  right: 27px;
+  top: 19px;
+  content: url("img/arrow.png");
+}
+
+.booking__main {
+  padding-top: 30px;
+}

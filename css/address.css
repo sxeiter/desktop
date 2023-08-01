@@ -47,3 +47,7 @@
 .contacts__location_street {
   padding-left: 91px;
 }
+
+.contacts__map {
+  max-width: 680px;
+}
