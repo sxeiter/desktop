@@ -4,7 +4,7 @@
 }
 
 .comment__item {
-  display: inline-block;
+  display: flex;
 }
 
 .comment__item:not(:last-child) {
@@ -12,8 +12,7 @@
 }
 
 .comment__image {
-  float: left;
-  margin-right: 20px;
+  margin-bottom: 11px;
 }
 
 .comment__review {
@@ -21,12 +20,27 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
+
   text-align: left;
+  display: flex;
 }
 
 .comment__name {
   clear: left;
   padding-left: 60px;
   padding-top: 11px;
+}
+
+.comment__box-img {
+  width: 280px;
+  position: relative;
+  margin-right: 20px;
+}
+
+.comment__box-name {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  min-width: 300px;
 }

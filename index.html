@@ -9,50 +9,55 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
-          <nav class="header__navigation">
-              <ul class="header__list">
-                  <li class="header__item header__item-margin">
-                      <img class="header__image" src="img/logo/logo.svg" alt="Логотип компании GO">
-                  </li>
-                  <li class="header__item">
-                      <a class="header__link" href="#"> залы</a>
-                  </li>
-                  <li class="header__item">
-                      <a class="header__link" href="#"> О нас</a>
-                  </li>
-                  <li class="header__item">
-                      <a class="header__link" href="#"> Бронь</a>
-                  </li>
-                  <li class="header__item">
-                      <a class="header__link" href="#"> отзывы</a>
-                  </li>
-                  <li class="header__item header__item-margin">
-                      <a class="header__link" href="#"> Контакты</a>
-                  </li>
-                  <li class="header__item header__item-btn">
-                      <a class="header__link header__link-call" href="#"> Заказать звонок</a>
-                  </li>
-              </ul>
-          </nav>
-          <div class="header__title-container">
-              <h1 class="header__title">GAME OVER</h1>
-              <p class="header__label">Новый формат игр и отдыха</p>
-              <div class="header__column">
-                  <p class="header__text header__text-4">4</p>
-                  <p class="header__text header__text-new">New</p>
-                  <p class="header__text">Тематических зала</p>
-                  <p class="header__text header__text-newest">Новейшая аппаратура</p>
-              </div>
-              <button class="header__button header__button-btn">Забронировать</button>
-              <button class="header__button header__button-btn2">
-               <img src="img/down.png" alt="">
-              </button>
-          </div>
+      <div class="container burger">
+        <div class="logo">
+          <img class="header__image" src="img/logo/logo.svg" alt="Логотип компании GO">
+        </div>     
+        <nav class="header__navigation">
+          <ul class="header__list">                  
+            <li class="header__item">
+                <a class="header__link" href="#"> залы</a>
+            </li>
+            <li class="header__item">
+                <a class="header__link" href="#"> О нас</a>
+            </li>
+            <li class="header__item">
+                <a class="header__link" href="#"> Бронь</a>
+            </li>
+            <li class="header__item">
+                <a class="header__link" href="#"> отзывы</a>
+            </li>
+            <li class="header__item header__item-margin">
+                <a class="header__link" href="#"> Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__button-top">Заказать звонок</button>
       </div>
     </header>
 
-    <section class="our">
+    <section class="banner">
+          <div class="container">
+            <div class="banner__title-container">
+              <h1 class="banner__title">GAME OVER</h1>
+              <p class="banner__label">Новый формат игр и отдыха</p>
+              <div class="banner__column">
+                <p class="banner__text banner__text-4">4</p>
+                <p class="banner__text">Тематических зала</p>
+              </div>
+              <div class="banner__column">
+                  <p class="banner__text banner__text-new">New</p>                  
+                  <p class="banner__text banner__text-newest">Новейшая аппаратура</p>
+              </div>
+              
+              <button class="banner__button banner__button-btn">Забронировать</button>
+              <button class="banner__button banner__button-btn2"><img src="img/down.png" alt=""></button>
+              <a href="#galery" class="banner__button banner__button-btn2"></a>
+            </div>
+          </div>
+    </section>
+     
+    <section class="our" id="galery">
       <div class="container">
           <h2 class="subtitle">У нас есть все для классного
             &nbsp;отдыха с друзьями!</h2>
@@ -103,12 +108,23 @@
         <div class="container">
           <form class="booking__form" action="https://jsonplaceholder.typicode.com/posts" id="my-form" method="post">
             <h2 class="subtitle booking__main container__title">Забронировать зал просто</h2>
-            <p class="booking__text">Выбери зал</p>
-            <fieldset class="booking__hall">
-                <button class="booking__btn" type="radio" name="hall" value="80's vibes">80's vibes </button> 
-                <button class="booking__btn" type="radio" name="hall" value="Star wars">Star wars </button> 
-                <button class="booking__btn" type="radio" name="hall" value="Wild west">Wild west </button> 
-                <button class="booking__btn" type="radio" name="hall" value="Neon style">Neon style </button> 
+            
+           <fieldset class="booking__hall">
+              <legend class="booking__title">Выбери зал</legend>
+
+                  <input class="booking__input" id="rooms1" name="radio" type="radio" value="80’s vibes">
+                  <label class="booking__btn" for="rooms1" >80’s vibes</label>
+                
+                  <input class="booking__input" id="rooms2" name="radio" type="radio" value="Star wars">
+                  <label class="booking__btn" for="rooms2" >Star wars</label>
+              
+                  <input class="booking__input" id="rooms3" name="radio" type="radio" value="Wild west">
+                  <label class="booking__btn" for="rooms3" >Wild west</label>
+       
+                  <input class="booking__input" id="rooms4" name="radio" type="radio" value="Neon style">
+                  <label class="booking__btn" for="rooms4" >Neon style</label>
+              
+
             </fieldset>
             
             <fieldset class="booking__funs">
@@ -228,23 +244,31 @@
           <h2 class="subtitle">Отзывы посетителей</h2>
           <ul class="comment__list">
             <li class="comment__item">
-              <img class="comment__image" src="img/person/person1.png" alt="person1">
-              <p class="comment__review">Отмечали здесь день рождения с компанией друзей, все было очень круто! VR очки это просто бомба, никогда еще я не был в таком полном игровом погружении. Сервис на высоте!</p>
-              <p class="comment__review comment__name">Макс Самойлов</p>
+              <figure class="comment__box-img">
+                <img class="comment__image" src="img/person/person1.png" alt="person1">
+                <figcaption class="comment__box-name">Макс Самойлов</figcaption>
+              </figure>
+              <p class="comment__review">
+                Отмечали здесь день рождения с компанией друзей, все было очень круто! VR очки это просто бомба, никогда еще я не был в таком полном игровом погружении. Сервис на высоте!
+              </p>
             </li>
             <li class="comment__item">
-              <img class="comment__image" src="img/person/person2.png" alt="person2">
+              <figure class="comment__box-img">
+                <img class="comment__image" src="img/person/person2.png" alt="person2">
+                <figcaption class="comment__box-name ">Оксана Григорьева</figcaption>
+              </figure>
               <p class="comment__review">
                 Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! У нас в городе больше нет подобных заведений
               </p>
-              <p class="comment__review comment__name">Оксана Григорьева</p>
             </li>
             <li class="comment__item">
-              <img class="comment__image" src="img/person/person3.png" alt="person3">
+              <figure class="comment__box-img">
+                <img class="comment__image" src="img/person/person3.png" alt="person3">
+                <figcaption class="comment__box-name">Никита Ященко</figcaption>
+              </figure>
               <p class="comment__review">
                 Немного подвисала игра в VR очках, а так все норм. Крутое оформление комнаты в стиле звездных войн, попал в атмосферу космоса
               </p>
-              <p class="comment__review comment__name">Никита Ященко</p>
             </li>
           </ul>
         </div>
@@ -269,7 +293,8 @@
           <h2 class="subtitle">Контакты</h2>
           <div class="footer__flex">
             <div class="contacts social">
-              <ul class="contacts__list">
+              <address class="contacts">
+                <ul class="contacts__list">
                 <li class="contacts__item"><img class="contacts__img"class="contacts__img" src="img/contacts/location.svg" alt="локация" ><p class="contacts__location">г. Москва&nbsp;
                   ул.&nbsp;Аквамарина, 16</p>
                    </li>
@@ -282,8 +307,10 @@
                 <li class="social__item"><a href="#" target="_blank" class="social__link"><img src="img/social/pinterest.svg" alt="Pinterest" ></a></li>
                 <li class="social__item"><a href="#" target="_blank" class="social__link"><img src="img/social/any-social.svg" alt="stumbleupon" ></a></li>
               </ul>
+              </address>
+              
             </div>
-            <div class="contacts__map">
+            <div class="map">
                 <img src="img/map/map.png" alt="Местонахождение на карте">
             </div>
           </div>  

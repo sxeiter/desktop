@@ -91,3 +91,7 @@ iframe {
   text-transform: uppercase;
   margin-bottom: 50px;
 }
+
+fieldset {
+  padding: 0;
+}

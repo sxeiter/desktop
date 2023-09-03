@@ -16,10 +16,12 @@
 
 .contacts__item {
   text-decoration: none;
-
   position: relative;
   max-width: 370px;
   padding-left: 50px;
+}
+
+.contacts__item:not(:last-child) {
   margin-bottom: 15px;
 }
 
@@ -52,7 +54,7 @@
   padding-left: 91px;
 }
 
-.contacts__map {
+.map {
   max-width: 680px;
 }
 
