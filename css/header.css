@@ -151,11 +151,15 @@ header {
   top: 660px;
 }
 
-.eader__button-top {
+.header__button-top {
   width: 280px;
   height: 55px;
-  top: 38px;
-  left: 1030px;
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
   color: inherit;
   background-color: transparent;
   border-radius: 10px;
