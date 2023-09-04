@@ -85,3 +85,16 @@
   font-size: 14px;
   line-height: 16px;
 }
+
+.social__click:hover {
+  background: #eadeed;
+}
+
+.social__click:active {
+  background: #cd06ff;
+}
+
+.social__click:focus {
+  background: #eadeed;
+  border: 1px solid #cd06ff;
+}

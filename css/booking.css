@@ -161,3 +161,38 @@
 .booking__main {
   padding-top: 30px;
 }
+
+.booking__btn:hover {
+  outline: 3px solid #640aa3;
+  background: #eadeed;
+}
+
+.booking__btn:active {
+  background: #6c0287;
+  outline: 3px solid #ffffff;
+}
+.booking__btn:focus {
+  outline: 3px solid #640aa3;
+}
+
+.booking__submit:hover {
+  color: #6c0287;
+  outline: 3px solid #6c0287;
+  background: #eadeed;
+}
+
+.booking__submit:active {
+  background: #eadeed;
+}
+
+.booking__submit:focus {
+  outline: 3px solid #6c0287;
+}
+
+.booking__date-time:focus {
+  border: 2px solid #cd06ff;
+}
+
+.booking__radio:focus {
+  border: 1px solid #cd06ff;
+}

@@ -6,6 +6,7 @@ header {
 .burger {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__list {
@@ -45,4 +46,15 @@ header {
   background-color: transparent;
   border-radius: 10px;
   border: 3px solid #cd06ff;
+  text-transform: uppercase;
+}
+
+.header__button-top:hover {
+  background-color: #6c0287;
+  border: 3px solid #6c0287;
+}
+
+.header__button-top:active {
+  background-color: #640aa3;
+  border: 1px solid #000000;
 }

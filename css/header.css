@@ -32,13 +32,12 @@
   flex-direction: row;
   align-items: baseline;
   gap: 40px;
-  flex-basis: 200px;
   margin-bottom: 150px;
 }
 
 .banner__list {
   display: flex;
-  max-width: 193px;
+  flex-basis: 193px;
   flex-direction: column;
 }
 
@@ -100,4 +99,21 @@
   right: 544px;
   z-index: 2;
   top: 660px;
+}
+
+.banner__button-btn:hover,
+.banner__button-btn:focus {
+  background: #840aa3;
+}
+
+.banner__button-btn:active {
+  background: #640aa3;
+}
+
+.banner__button-btn2:hover {
+  background-image: url(/img/down-hover.svg);
+}
+
+.banner__button-btn2:active {
+  background-image: url(/img/down-active.svg);
 }
