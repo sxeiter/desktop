@@ -42,14 +42,24 @@
               <h1 class="banner__title">GAME OVER</h1>
               <p class="banner__label">Новый формат игр и отдыха</p>
               <div class="banner__column">
-                <p class="banner__text banner__text-4">4</p>
-                <p class="banner__text">Тематических зала</p>
+                <ul class="banner__list">
+                  <li class="banner__item">
+                    <p class="banner__text banner__text-4">4</p>
+                  </li>
+                  <li class="banner__item">
+                    <p class="banner__text">Тематических зала</p>
+                  </li>
+                </ul>
+                <ul class="banner__list">
+                  <li class="banner__item">
+                    <p class="banner__text banner__text-new">New</p> 
+                  </li>
+                  <li class="banner__item">
+                    <p class="banner__text banner__text-newest">Новейшая аппаратура</p>
+                  </li>
+                </ul>
               </div>
-              <div class="banner__column">
-                  <p class="banner__text banner__text-new">New</p>                  
-                  <p class="banner__text banner__text-newest">Новейшая аппаратура</p>
-              </div>
-              
+
               <button class="banner__button banner__button-btn">Забронировать</button>
               <button class="banner__button banner__button-btn2"><img src="img/down.png" alt=""></button>
               <a href="#galery" class="banner__button banner__button-btn2"></a>
@@ -82,9 +92,9 @@
             </li>
           </ul>
         </div>
-      </section>
+    </section>
 
-      <section class="halls">
+    <section class="halls">
         <div class="container">
           <h2 class="subtitle">наши залы</h2>
           <ul class="halls__list">
@@ -102,9 +112,9 @@
                style</a></li>
           </ul>
         </div>
-      </section>
+    </section>
 
-      <section class="booking reserve">
+    <section class="booking reserve">
         <div class="container">
           <form class="booking__form" action="https://jsonplaceholder.typicode.com/posts" id="my-form" method="post">
             <h2 class="subtitle booking__main container__title">Забронировать зал просто</h2>
@@ -205,7 +215,7 @@
         </div>
     </section>
 
-      <section class="block about-us" id="about">
+    <section class="block about-us" id="about">
         <div class="container">
           <h2 class="subtitle">О нас</h2>
           <div class="about-us__bg about-us__content">
@@ -237,9 +247,8 @@
               территории GAME OVER</figcaption>
             </figure>
           </div>
-      </section>
-
-      <section class="block comment">
+    </section>
+    <section class="block comment">
         <div class="container">
           <h2 class="subtitle">Отзывы посетителей</h2>
           <ul class="comment__list">
@@ -273,9 +282,9 @@
           </ul>
         </div>
 
-      </section>
-      
-      <section class="block faq" id="faq">
+    </section>
+    
+    <section class="block faq" id="faq">
         <div class="container">
           <h2 class="subtitle">Частые вопросы</h2>
           <ul class="faq__list">
@@ -286,20 +295,19 @@
             <li class="faq__item">Какая комната самая популярная?</li>
           </ul>
         </div>
-      </section>
-
-      <footer class="footer">
+    </section>
+    <footer class="footer">
         <div class="container">
           <h2 class="subtitle">Контакты</h2>
           <div class="footer__flex">
             <div class="contacts social">
               <address class="contacts">
                 <ul class="contacts__list">
-                <li class="contacts__item"><img class="contacts__img"class="contacts__img" src="img/contacts/location.svg" alt="локация" ><p class="contacts__location">г. Москва&nbsp;
+                <li class="contacts__item location"><p class="contacts__location">г. Москва&nbsp;
                   ул.&nbsp;Аквамарина, 16</p>
                    </li>
-                <li class="contacts__item phone"><img class="contacts__img" src="img/contacts/phone.svg" alt="номер телефона"><a href="tel:+89509302893" class="contacts__links"> <p class="contacts__location">8(950)930-28-93</p></a></li>
-                <li class="contacts__item mail"><img class="contacts__img" src="img/contacts/mail.svg" alt="почта"><a href="mailto:GameOver@gmail.com" class="contacts__links"><p class="contacts__location">GameOver@gmail.com</p></a> </li>
+                <li class="contacts__item phone"><p class="contacts__location">8(950)930-28-93</p></a></li>
+                <li class="contacts__item mail"><p class="contacts__location">GameOver@gmail.com</p></a> </li>
               </ul>
               <ul class="social__list">
                 <li class="social__item"><a href="#" target="_blank" class="social__link"><img src="img/social/vk.svg" alt="vk" ></a></li>
@@ -329,6 +337,6 @@
           </div>
 
         </div>
-      </footer>
+    </footer>
   </body>
 </html>
