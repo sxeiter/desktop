@@ -167,12 +167,15 @@
   background: #eadeed;
 }
 
+.booking__btn:focus {
+  outline: 3px solid #640aa3;
+  background: #000000;
+  background-color: fff;
+}
+
 .booking__btn:active {
   background: #6c0287;
   outline: 3px solid #ffffff;
-}
-.booking__btn:focus {
-  outline: 3px solid #640aa3;
 }
 
 .booking__submit:hover {
@@ -181,12 +184,13 @@
   background: #eadeed;
 }
 
-.booking__submit:active {
-  background: #eadeed;
-}
-
 .booking__submit:focus {
   outline: 3px solid #6c0287;
+  background: #ffffff;
+}
+
+.booking__submit:active {
+  background: #eadeed;
 }
 
 .booking__date-time:focus {

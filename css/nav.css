@@ -33,6 +33,18 @@ header {
   margin-right: 57px;
 }
 
+.header__link:hover {
+  color: #6c0287;
+}
+
+.header__link:focus {
+  color: #6c0287;
+}
+
+.header__link:active {
+  color: #640aa3;
+}
+
 .header__button-top {
   width: 280px;
   height: 55px;
@@ -52,6 +64,10 @@ header {
 .header__button-top:hover {
   background-color: #6c0287;
   border: 3px solid #6c0287;
+}
+
+.header__button-top:focus {
+  background-color: #6c0287;
 }
 
 .header__button-top:active {

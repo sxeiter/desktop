@@ -114,6 +114,10 @@
   background-image: url(/img/down-hover.svg);
 }
 
+.banner__button-btn2:focus {
+  border: 1px solid #cd06ff;
+}
+
 .banner__button-btn2:active {
   background-image: url(/img/down-active.svg);
 }

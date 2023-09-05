@@ -86,15 +86,15 @@
   line-height: 16px;
 }
 
-.social__click:hover {
-  background: #eadeed;
+.social__link:hover > svg {
+  fill: #eadeed;
 }
 
-.social__click:active {
-  background: #cd06ff;
+.social__link:focus > svg {
+  fill: #cd06ff;
 }
 
-.social__click:focus {
-  background: #eadeed;
+.social__link:active > svg {
+  fill: #eadeed;
   border: 1px solid #cd06ff;
 }
