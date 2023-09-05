@@ -89,6 +89,8 @@
   border: transparent;
   transition-duration: 0.2s;
   transition-property: background-color;
+  box-shadow: 1px 1px 10px #6c0287, -1px -1px 10px #6c0287,
+    1px -1px 10px #6c0287, -1px 1px 10px #6c0287;
 }
 
 .banner__button-btn2 {
@@ -119,7 +121,7 @@
 }
 
 .banner__button-btn2:focus {
-  border: 1px solid #cd06ff;
+  background-image: url(/img/downaaaaaaaa.png);
 }
 
 .banner__button-btn2:active {

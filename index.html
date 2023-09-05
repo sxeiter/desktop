@@ -10,29 +10,29 @@
   <body>
     <header class="header">
       <div class="container burger">
-        <div class="logo">
+        <div class="logo" tabindex="1">
           <img class="header__image" src="img/logo/logo.svg" alt="Логотип компании GO">
         </div>     
         <nav class="header__navigation">
           <ul class="header__list">                  
             <li class="header__item">
-                <a class="header__link" href="#"> залы</a>
+                <a class="header__link" href="#" tabindex="2"> залы</a>
             </li>
             <li class="header__item">
-                <a class="header__link" href="#"> О нас</a>
+                <a class="header__link" href="#" tabindex="3"> О нас</a>
             </li>
             <li class="header__item">
-                <a class="header__link" href="#"> Бронь</a>
+                <a class="header__link" href="#" tabindex="4"> Бронь</a>
             </li>
             <li class="header__item">
-                <a class="header__link" href="#"> отзывы</a>
+                <a class="header__link" href="#" tabindex="5"> отзывы</a>
             </li>
             <li class="header__item header__item-margin">
-                <a class="header__link" href="#"> Контакты</a>
+                <a class="header__link" href="#" tabindex="6"> Контакты</a>
             </li>
           </ul>
         </nav>
-        <button class="header__button-top">Заказать звонок</button>
+        <button class="header__button-top" tabindex="7">Заказать звонок</button>
       </div>
     </header>
 
@@ -60,9 +60,9 @@
                 </ul>
               </div>
 
-              <button class="banner__button banner__button-btn">Забронировать</button>
-              <button class="banner__button banner__button-btn2"><img src="img/down.png" alt=""></button>
-              <a href="#galery" class="banner__button banner__button-btn2"></a>
+              <button class="banner__button banner__button-btn" tabindex="8">Забронировать</button>
+              <button class="banner__button banner__button-btn2 " ><img src="img/down.png" alt=""></button>
+              <a href="#galery" class="banner__button banner__button-btn2 test" tabindex="9"></a>
             </div>
           </div>
     </section>
@@ -72,23 +72,23 @@
           <h2 class="subtitle">У нас есть все для классного
             &nbsp;отдыха с друзьями!</h2>
           <ul class="our__list">
-            <li class="our__item vr">
+            <li class="our__item vr" tabindex="10">
               <p class="our__text">VR очки</p>
             </li>
-            <li class="our__item audio">
-              <p class="our__text">Аудио-система 5.1  с отличным звуком</p>
+            <li class="our__item audio" tabindex="11">
+              <p class="our__text" >Аудио-система 5.1  с отличным звуком</p>
             </li>
-            <li class="our__item karaoke">
-              <p class="our__text">Караоке (4 микрофона)</p>
+            <li class="our__item karaoke" tabindex="12">
+              <p class="our__text" >Караоке (4 микрофона)</p>
             </li>
-            <li class="our__item table-game">
-              <p class="our__text">Настольные игры</p>
+            <li class="our__item table-game" tabindex="13">
+              <p class="our__text" >Настольные игры</p>
             </li>
-            <li class="our__item cinema">
-              <p class="our__text">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</p>
+            <li class="our__item cinema" tabindex="14">
+              <p class="our__text" >Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</p>
             </li>
-            <li class="our__item game-station">
-              <p class="our__text">РlаyStаtiоn 5</p>
+            <li class="our__item game-station" tabindex="15">
+              <p class="our__text"   >РlаyStаtiоn 5</p>
             </li>
           </ul>
         </div>
@@ -98,16 +98,16 @@
         <div class="container">
           <h2 class="subtitle">наши залы</h2>
           <ul class="halls__list">
-            <li class="halls__item old-vibes">
+            <li class="halls__item old-vibes" tabindex="16">
               <a href="#" class="halls__link">80's 
               vibes</a></li>
-            <li class="halls__item star-wars">
+            <li class="halls__item star-wars" tabindex="17">
               <a href="#" class="halls__link">star 
               wars</a> </li>
-            <li class="halls__item wild-west">
+            <li class="halls__item wild-west" tabindex="18">
               <a href="#" class="halls__link">wild 
               west</a> </li>
-            <li class="halls__item neon-style">
+            <li class="halls__item neon-style" tabindex="19">
               <a href="#" class="halls__link"> neon
                style</a></li>
           </ul>
@@ -123,16 +123,16 @@
               <legend class="booking__title">Выбери зал</legend>
                 
                   <input class="booking__input" id="rooms1" name="radio" type="radio" value="80’s vibes">
-                  <label class="booking__btn" for="rooms1" >80’s vibes</label>
+                  <label class="booking__btn" for="rooms1" tabindex="20">80’s vibes</label>
                
                   <input class="booking__input" id="rooms2" name="radio" type="radio" value="Star wars">
-                  <label class="booking__btn" for="rooms2" >Star wars</label>
+                  <label class="booking__btn" for="rooms2" tabindex="21">Star wars</label>
               
                   <input class="booking__input" id="rooms3" name="radio" type="radio" value="Wild west">
-                  <label class="booking__btn" for="rooms3" >Wild west</label>
+                  <label class="booking__btn" for="rooms3" tabindex="22">Wild west</label>
        
                   <input class="booking__input" id="rooms4" name="radio" type="radio" value="Neon style">
-                  <label class="booking__btn" for="rooms4" >Neon style</label>
+                  <label class="booking__btn" for="rooms4" tabindex="23">Neon style</label>
               
 
             </fieldset>
@@ -141,43 +141,43 @@
                 <legend class="booking__title">Собери набор развлечений</legend>
                 <fieldset class="booking__play-table">
                     <legend class="booking__title">Приставка</legend>
-                    <label class="booking__label" for="PlayStation">
-                        <input class="booking__radio" type="radio" name="game_console" value="PlayStation">PlayStation
+                    <label class="booking__label" for="PlayStation" tabindex="24"     >
+                        <input class="booking__radio" type="radio" name="game_console" value="PlayStation" >PlayStation
                     </label>
-                    <label class="booking__label" for="Sega Mega Drive">
-                        <input class="booking__radio" type="radio" name="game_console" value="Sega Mega Drive">Sega Mega Drive
+                    <label class="booking__label" for="Sega Mega Drive" tabindex="25">
+                        <input class="booking__radio" type="radio" name="game_console" value="Sega Mega Drive" >Sega Mega Drive
                     </label>
-                    <label class="booking__label" for="X-Box One S">
-                        <input class="booking__radio" type="radio" name="game_console" value="X-Box One S">X-Box One S
+                    <label class="booking__label" for="X-Box One S" tabindex="26">
+                        <input class="booking__radio" type="radio" name="game_console" value="X-Box One S" >X-Box One S
                     </label>
-                    <label class="booking__label" for="Dendy">
-                        <input class="booking__radio" type="radio" name="game_console" value="Dendy">Dendy
+                    <label class="booking__label" for="Dendy" tabindex="27">
+                        <input class="booking__radio" type="radio" name="game_console" value="Dendy" >Dendy
                     </label>
                 </fieldset>
             
 
                 <fieldset class="booking__play-table">
                     <legend class="booking__title">Настольные игры</legend>
-                    <label for="Jenga" class="booking__label">
+                    <label for="Jenga" class="booking__label" tabindex="28">
                         <input class="booking__checkbox" type="checkbox" name="table_games" value="Jenga">Jenga
                     </label>
-                    <label for="Monopoly" class="booking__label">
+                    <label for="Monopoly" class="booking__label" tabindex="29">
                         <input class="booking__checkbox" type="checkbox" name="table_games" value="Monopoly">Monopoly
                     </label>
-                    <label for="Manchkin" class="booking__label">
+                    <label for="Manchkin" class="booking__label" tabindex="30">
                         <input class="booking__checkbox" type="checkbox" name="table_games" value="Manchkin">Манчкин
                     </label>
-                    <label for="Alias" class="booking__label">
+                    <label for="Alias" class="booking__label" tabindex="31">
                         <input class="booking__checkbox" type="checkbox" name="table_games" value="Alias">Alias
                     </label>
                 </fieldset>
 
                 <fieldset class="booking__play-table">
                     <legend class= "booking__title">Дополнительно</legend>
-                    <label for="Karaoke" class="booking__label">
+                    <label for="Karaoke" class="booking__label" tabindex="32">
                         <input class="booking__checkbox" type="checkbox" name="extra" value="Karaoke">Караоке
                     </label>
-                    <label for="VR" class="booking__label">
+                    <label for="VR" class="booking__label" tabindex="33">
                         <input class="booking__checkbox" type="checkbox" name="extra" value="VR">VR
                     </label>
                 </fieldset>
@@ -185,31 +185,31 @@
 
             <fieldset class="booking__date-time">
                 <legend class="booking__title">Выбери дату и время</legend>
-                <label class="booking__legend booking__legend--arrow" for="date"> 
+                <label class="booking__legend booking__legend--arrow" for="date" tabindex="34"> 
                     <input type="date" class="booking__day-time " name="date" id="date" placeholder="Дата" required>
                 </label>
 
-                <label class="booking__legend  booking__legend--arrow" for="time">
+                <label class="booking__legend  booking__legend--arrow" for="time" tabindex="35">
                     <input type="time" class="booking__day-time" name="time" id="time" placeholder="Время" >
                 </label>
-                <label class="booking__legend" for="name">Имя 
+                <label class="booking__legend" for="name" tabindex="36">Имя 
                     <input class="booking__day-time booking__day-time--long" type="text"  name="name" id="name" required>
                 </label>
-                <label class="booking__legend" for="phone">Номер телефона
+                <label class="booking__legend" for="phone" tabindex="37">Номер телефона
                     <input class="booking__day-time booking__day-time--long-very" type="text"  name="phone" id="phone" required>
                 </label>
-                <label class="booking__legend  booking__legend--arrow" for="people">
+                <label class="booking__legend  booking__legend--arrow" for="people" tabindex="38">
                     <input class="booking__day-time booking__day-time--long-very " type="text"  name="people" id="people" placeholder="Сколько человек" required>
                 </label>
-                <label class="booking__legend" for="surname">Фамилия 
+                <label class="booking__legend" for="surname" tabindex="39">Фамилия 
                     <input class="booking__day-time booking__day-time--long" type="text"  name="surname" id="surname" required>
                 </label>
-                <label class="booking__legend" for="E-mail">E-mail
+                <label class="booking__legend" for="E-mail" tabindex="40">E-mail
                     <input class="booking__day-time booking__day-time--long-very" type="text" name="e-mail" id="E-mail">
                 </label>
             </fieldset>
             <div class="booking__btn-submit">
-                <button class="booking__submit" type="submit" formtarget="_blank">Забронировать</button> 
+                <button class="booking__submit" type="submit" formtarget="_blank" tabindex="41">Забронировать</button> 
             </div>
         </form>
         </div>

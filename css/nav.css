@@ -76,7 +76,8 @@ header {
 }
 
 .header__button-top:focus {
-  background-color: #6c0287;
+  background: #6c0287;
+  border: none;
 }
 
 .header__button-top:active {

@@ -95,3 +95,7 @@ iframe {
 fieldset {
   padding: 0;
 }
+
+input {
+  outline: none;
+}
