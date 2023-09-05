@@ -38,6 +38,12 @@
   text-decoration: none;
   color: #fff;
   text-align: center;
+  transition-duration: 1s;
+  transition-property: color;
+}
+
+.halls__link:hover {
+  color: #6c0287;
 }
 
 .halls__item:not(:nth-last-child(-n + 2)) {

@@ -87,6 +87,8 @@
   text-transform: uppercase;
   color: #ffffff;
   border: transparent;
+  transition-duration: 0.2s;
+  transition-property: background-color;
 }
 
 .banner__button-btn2 {
@@ -99,6 +101,8 @@
   right: 544px;
   z-index: 2;
   top: 660px;
+  transition-duration: 0.2s, 0.2s;
+  transition-property: background-image;
 }
 
 .banner__button-btn:hover,

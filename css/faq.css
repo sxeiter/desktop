@@ -87,7 +87,7 @@
   background-color: transparent;
   color: inherit;
 
-  transition-duration: 0.6s;
+  transition-duration: 1s;
   transition-property: background-image;
 }
 

@@ -28,6 +28,13 @@
   width: 380px;
   height: 228px;
   background-color: wheat;
+  transition-duration: 1s;
+  transition-property: transform;
+  transition-delay: 0.2s;
+}
+
+.our__item:hover {
+  transform: scale(1.1);
 }
 
 .our__text {
