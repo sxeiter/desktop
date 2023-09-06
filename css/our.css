@@ -43,4 +43,6 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
+  position: absolute;
+  width: 350px;
 }
