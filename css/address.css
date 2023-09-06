@@ -101,5 +101,11 @@
 
 .social__link:active > svg {
   fill: #eadeed;
-  border: 1px solid #cd06ff;
+  outline: 1px solid;
+}
+
+.link__link:hover {
+  color: #cd06ff;
+  transition-duration: 1s;
+  transition-property: background-color;
 }

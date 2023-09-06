@@ -11,13 +11,13 @@
   padding: 30px 70px;
   line-height: 46px;
   list-style: none;
+  transition-duration: 1s;
+  transition-property: background-image;
 }
 
 .faq__btn {
-  width: 1040px;
+  max-width: 1040px;
   text-align: left;
-  transition-duration: 1s;
-  transition-property: background-image;
 }
 
 .faq__btn-white {
@@ -33,48 +33,54 @@
   background-color: #440f51;
 }
 
-.faq__btn:nth-child(even) {
-  color: #fff;
-  background-color: #440f51;
-}
-
-.faq__btn:after {
+.faq__item:after {
   float: right;
   width: 46px;
   height: 46px;
-  position: relative;
 }
 
-.faq__btn-violet:after {
+.faq__item-violet:after {
   content: "";
   background-image: url("../img/open/open-purple.svg");
+  transition-duration: 1s;
+  transition-property: background-image;
 }
 
-.faq__btn-violet:hover {
+.faq__item-violet:hover:after {
   background-image: url("../img/open/open-purple-hover.svg");
   background-repeat: no-repeat;
   background-position: right 0 center;
+  transition-duration: 1s;
+  transition-property: background-image;
 }
 
-.faq__btn-violet:active {
+.faq__item-violet:active:after {
   background-image: url("../img/open/open-purple-active.svg");
   background-repeat: no-repeat;
   background-position: right 0 center;
+  transition-duration: 1s;
+  transition-property: background-image;
 }
 
-.faq__btn-white:after {
+.faq__item-white:after {
   content: "";
   background-image: url("../img/open/open.svg");
+  transition-duration: 1s;
+  transition-property: background-image;
 }
 
-.faq__btn-white:hover {
+.faq__item-white:hover:after {
   background-image: url("../img/open/open-hover.svg");
   background-repeat: no-repeat;
   background-position: right 0 center;
+  transition-duration: 1s;
+  transition-property: background-image;
 }
 
-.faq__btn-white:active {
+.faq__item-white:active:after {
   background-image: url("../img/open/open-active.svg");
   background-repeat: no-repeat;
   background-position: right 0 center;
+  transition-duration: 1s;
+  transition-property: background-image;
 }

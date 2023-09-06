@@ -141,8 +141,7 @@
   border-radius: 10px;
   border: none;
   background-color: #fff;
-  box-shadow: 1px 1px 5px #fff, -1px -1px 5px #fff, -1px 1px 5px #fff,
-    1px -1px 5px #fff;
+  box-shadow: 0 0 10px #fff;
 }
 
 .booking__btn-submit {

@@ -60,9 +60,14 @@
                 </ul>
               </div>
 
-              <button class="banner__button banner__button-btn" tabindex="8">Забронировать</button>
-              <button class="banner__button banner__button-btn2 " ><img src="img/down.png" alt=""></button>
-              <a href="#galery" class="banner__button banner__button-btn2 test" tabindex="9"></a>           
+              <button class="banner__button banner__button-btn" tabindex="8">
+                <a href="#booking">Забронировать</a>
+              </button>
+                
+              <!--
+                <a href="#galery" class="banner__button banner__button-btn2" tabindex="9"></a>
+              -->
+              <a href="#galery" class="banner__button-push" tabindex="9"></a>           
             </div>
           </div>
     </section>
@@ -115,7 +120,7 @@
         </div>
     </section>
 
-    <section class="booking reserve">
+    <section class="booking reserve" id="booking">
         <div class="container">
           <form class="booking__form" action="https://jsonplaceholder.typicode.com/posts" id="my-form" method="post">
             <h2 class="subtitle booking__main container__title">Забронировать зал просто</h2>
@@ -289,71 +294,33 @@
         <div class="container">
           <h2 class="subtitle">Частые вопросы</h2>
 
-  <ul class="faq__list">
-            <li class="faq__item ">
+          <ul class="faq__list">
+            <li class="faq__item faq__item-violet">
               <button class="faq__btn faq__btn-violet">
                 Можно ли забронировать комнату онлайн?
               </button>
             </li>
-            <li class="faq__item test-v">
+            <li class="faq__item faq__item-white">
               <button class="faq__btn faq__btn-white">
                 Могут ли мне вернуть деньги за бронь?
               </button>
             </li>
-            <li class="faq__item">
+            <li class="faq__item faq__item-violet">
               <button class="faq__btn faq__btn-violet">
               Какая комната самая лучшая?
               </button>
             </li>
-            <li class="faq__item">
+            <li class="faq__item faq__item-white">
               <button class="faq__btn faq__btn-white">
                 Как получить VIP карту?
               </button>
             </li>
-            <li class="faq__item">
+            <li class="faq__item faq__item-violet">
               <button class="faq__btn faq__btn-violet">
                 Какая комната самая популярная?
               </button>
             </li>
           </ul>
-
-
-<!--
-
-
-          <ul class="faq__list">
-            <li class="faq__item faq__item_violet">
-              <button class="faq__btn faq__btn_violet" >
-                <span class="faq__btn-span">Можно ли забронировать комнату онлайн?</span>
-              </button>
-            </li>
-  
-            <li class="faq__item faq__item_white">
-              <button class="faq__btn faq__btn_white" >
-                <span class="faq__btn-span">Могут ли мне вернуть деньги за бронь?</span>
-              </button>
-            </li>
-  
-            <li class="faq__item faq__item_violet">
-              <button class="faq__btn faq__btn_violet" >
-                <span class="faq__btn-span">Какая комната самая популярная?</span>
-              </button>
-            </li>
-  
-            <li class="faq__item faq__item_white">
-              <button class="faq__btn faq__btn_white" >
-                <span class="faq__btn-span">Как получить VIP карту?</span>
-              </button>
-            </li>
-  
-            <li class="faq__item faq__item_violet">
-              <button class="faq__btn faq__btn_violet" >
-                <span class="faq__btn-span">Какая комната самая популярная?</span>
-              </button>
-            </li>
-          </ul>
--->
-
         </div>
     </section>
     <footer class="footer">
@@ -366,8 +333,12 @@
                 <li class="contacts__item location"><p class="contacts__location">г. Москва&nbsp;
                   ул.&nbsp;Аквамарина, 16</p>
                    </li>
-                <li class="contacts__item phone"><p class="contacts__location">8(950)930-28-93</p></a></li>
-                <li class="contacts__item mail"><p class="contacts__location">GameOver@gmail.com</p></a> </li>
+                <li class="contacts__item phone"><p class="contacts__location"></p>
+                  <a href="tel:89509302893" class="link__link">8(950)930-28-93</a>
+                </li>
+                <li class="contacts__item mail"><p class="contacts__location"></p>
+                  <a href="mailto:GameOver@gmail.com" class="link__link">GameOver@gmail.com</a>
+                </li>
               </ul>
               <ul class="social__list">
                 <li class="social__item">
@@ -416,7 +387,7 @@
 
             <div class="footer__bottom-right">
               <p class="footer__bottom-right-text">Design by Anastasia Ilina</p>
-              <a class="footer__bottom-right-link" href="mailto:ilina9825@gmail.com">ilina9825@gmail.com</a>
+              <a class="footer__bottom-right-link link__link" href="mailto:ilina9825@gmail.com">ilina9825@gmail.com</a>
             </div>
             
           </div>
