@@ -96,12 +96,12 @@
 }
 
 .social__link:focus > svg {
-  fill: #cd06ff;
+  fill: #eadeed;
+  outline: 1px solid;
 }
 
 .social__link:active > svg {
-  fill: #eadeed;
-  outline: 1px solid;
+  fill: #cd06ff;
 }
 
 .link__link:hover {
