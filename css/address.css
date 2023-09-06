@@ -104,8 +104,11 @@
   fill: #cd06ff;
 }
 
+.link__link {
+  transition-duration: 0.5s;
+  transition-property: color;
+}
+
 .link__link:hover {
   color: #cd06ff;
-  transition-duration: 1s;
-  transition-property: background-color;
 }

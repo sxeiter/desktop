@@ -77,6 +77,7 @@
   border-radius: 10px;
   margin-right: 12px;
   vertical-align: bottom;
+  transition-duration: 0.5s;
 }
 
 .booking__label {
@@ -142,6 +143,8 @@
   border: none;
   background-color: #fff;
   box-shadow: 0 0 10px #fff;
+  transition-duration: 0.7s;
+  transition-property: all;
 }
 
 .booking__btn-submit {
@@ -172,6 +175,7 @@
 
 .booking__btn:focus {
   outline: 3px solid #640aa3;
+  outline-offset: -3px;
   background: #fff;
   color: black;
 }
@@ -190,11 +194,18 @@
 .booking__submit:focus {
   background: #fff;
   color: #6c0287;
-  border: 3px solid #6c0287;
+  outline: 3px solid #6c0287;
+  outline-offset: -3px;
 }
 
 .booking__submit:active {
   background: #eadeed;
+}
+
+.booking__radio:focus,
+.booking__checkbox:focus {
+  outline: 1px solid #cd06ff;
+  outline-offset: -1px;
 }
 
 .booking__day-time--long-very:focus {
@@ -202,17 +213,9 @@
 }
 
 .booking__day-time:focus {
-  border: 3px solid #cd06ff;
-}
-
-.booking__radio:focus {
-  border: 1px solid #cd06ff;
+  border: 2px solid #cd06ff;
 }
 
 .booking__legend--arrow:focus {
-  border: 3px solid #6c0287;
-}
-
-.booking__chekbox:focus {
-  border: 3px solid #6c0287;
+  border: 2px solid #6c0287;
 }
