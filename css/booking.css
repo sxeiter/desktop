@@ -49,6 +49,7 @@
   border: inherit;
   transition-duration: 1s, 1s;
   transition-property: background-color, outline-color;
+  cursor: pointer;
 }
 
 .booking__funs {

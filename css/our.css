@@ -31,6 +31,7 @@
   transition-duration: 1s;
   transition-property: transform;
   transition-delay: 0.2s;
+  position: relative;
 }
 
 .our__item:hover {
@@ -38,11 +39,11 @@
 }
 
 .our__text {
-  padding-left: 40px;
-  padding-top: 166px;
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
   position: absolute;
-  width: 350px;
+  max-width: 300px;
+  bottom: 40px;
+  left: 40px;
 }

@@ -13,6 +13,7 @@
   list-style: none;
   transition-duration: 1s;
   transition-property: background-image;
+  cursor: pointer;
 }
 
 .faq__btn {
