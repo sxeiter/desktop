@@ -15,6 +15,29 @@
   margin-bottom: 11px;
 }
 
+.comment__box-img {
+  width: 280px;
+  position: relative;
+  margin-right: 20px;
+}
+
+.comment__box-img:after {
+  content: "";
+  display: inline-block;
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(196, 196, 196, 0) 0%,
+    rgba(108, 2, 135, 0.5) 100%
+  );
+  border-radius: 50%;
+}
+
 .comment__review {
   padding-top: 50px;
   font-size: 20px;
@@ -29,12 +52,6 @@
   clear: left;
   padding-left: 60px;
   padding-top: 11px;
-}
-
-.comment__box-img {
-  width: 280px;
-  position: relative;
-  margin-right: 20px;
 }
 
 .comment__box-name {

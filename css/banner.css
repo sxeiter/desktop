@@ -57,7 +57,7 @@
   font-weight: 900;
   font-size: 100px;
   line-height: 141px;
-  color: #cd06ff;
+  color: var(--main-color);
 }
 
 .banner__text-new {
@@ -67,7 +67,7 @@
   font-size: 75px;
   line-height: 106px;
   font-variant: all-small-caps;
-  color: #cd06ff;
+  color: var(--main-color);
   align-self: flex-end;
 }
 
@@ -79,7 +79,7 @@
   width: 374px;
   height: 80px;
   padding: 25px;
-  background-color: #6c0287;
+  background-color: var(--main-color-two);
   border-radius: 10px;
   font-weight: 700;
   font-size: 26px;
@@ -90,7 +90,7 @@
   border: transparent;
   transition-duration: 1s;
   transition-property: background-color;
-  box-shadow: 0 0 10px #6c0287;
+  box-shadow: 0 0 10px var(--main-color-two);
 }
 
 .banner__button-push {
@@ -113,11 +113,11 @@
 
 .banner__button-btn:hover,
 .banner__button-btn:focus {
-  background: #840aa3;
+  background: var(--main-color-four);
 }
 
 .banner__button-btn:active {
-  background: #640aa3;
+  background: var(--main-color-three);
 }
 
 .banner__button-push:hover {

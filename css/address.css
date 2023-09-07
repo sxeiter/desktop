@@ -101,11 +101,11 @@
 
 .social__link:focus > svg {
   fill: #eadeed;
-  outline: 1px solid #cd06ff;
+  outline: 1px solid var(--main-color);
 }
 
 .social__link:active > svg {
-  fill: #cd06ff;
+  fill: var(--main-color);
 }
 
 .link__link {
@@ -114,5 +114,5 @@
 }
 
 .link__link:hover {
-  color: #cd06ff;
+  color: var(--main-color);
 }

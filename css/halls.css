@@ -43,7 +43,7 @@
 }
 
 .halls__link:hover {
-  color: #6c0287;
+  color: var(--main-color-two);
 }
 
 .halls__item:not(:nth-last-child(-n + 2)) {

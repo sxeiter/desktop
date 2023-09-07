@@ -37,7 +37,7 @@
   font-size: 44px;
   line-height: 50px;
   text-transform: uppercase;
-  color: #6c0287;
+  color: var(--main-color-two);
   white-space: pre-line;
   max-width: 1125px;
 }

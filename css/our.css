@@ -34,8 +34,17 @@
   position: relative;
 }
 
+.our__item:nth-child(3n - 1) {
+  transform: translateY(70px);
+}
+
 .our__item:hover {
   transform: scale(1.1);
+}
+
+.audio:hover,
+.cinema:hover {
+  transform: translateY(70px) scale(1.1);
 }
 
 .our__text {
