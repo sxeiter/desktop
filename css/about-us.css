@@ -47,7 +47,7 @@
   font-size: 44px;
   line-height: 50px;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--main-color-six);
   margin-top: 38px;
   margin-bottom: 38px;
 }

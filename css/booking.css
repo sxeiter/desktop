@@ -40,10 +40,10 @@
   font-weight: 700;
   font-size: 30px;
   line-height: 40px;
-  background-color: #fff;
+  background-color: var(--main-color-six);
   text-align: center;
   text-transform: uppercase;
-  color: #000000;
+  color: var(--main-color-seven);
   padding: 7px 15px;
   border-radius: 8px;
   border: inherit;
@@ -142,8 +142,8 @@
   margin-bottom: 80px;
   border-radius: 10px;
   border: none;
-  background-color: #fff;
-  box-shadow: 0 0 10px #fff;
+  background-color: var(--main-color-six);
+  box-shadow: 0 0 10px var(--main-color-six);
   transition-duration: 0.7s;
   transition-property: all;
 }
@@ -177,14 +177,14 @@
 .booking__btn:focus {
   outline: 3px solid var(--main-color-three);
   outline-offset: -3px;
-  background: #fff;
+  background: var(--main-color-six);
   color: black;
 }
 
 .booking__btn:active {
-  outline: 3px solid #ffffff;
+  outline: 3px solid var(--main-color-six);
   background: var(--main-color-two);
-  color: #fff;
+  color: var(--main-color-six);
 }
 
 .booking__submit:hover {
@@ -193,7 +193,7 @@
 }
 
 .booking__submit:focus {
-  background: #fff;
+  background: var(--main-color-six);
   color: var(--main-color-two);
   outline: 3px solid var(--main-color-two);
   outline-offset: -3px;

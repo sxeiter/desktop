@@ -36,7 +36,7 @@
   line-height: 80px;
   padding: 125px 0;
   text-decoration: none;
-  color: #fff;
+  color: var(--main-color-six);
   text-align: center;
   transition-duration: 1s;
   transition-property: color;

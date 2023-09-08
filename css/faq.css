@@ -4,7 +4,7 @@
 }
 
 .faq__item {
-  background-color: #fff;
+  background-color: var(--main-color-six);
   color: #1c1a1a;
   font-weight: 700;
   font-size: 24px;
@@ -22,7 +22,7 @@
 }
 
 .faq__btn-white {
-  color: white;
+  color: var(--main-color-six);
 }
 
 .faq__item:not(:last-child) {
@@ -30,7 +30,7 @@
 }
 
 .faq__item:nth-child(even) {
-  color: #fff;
+  color: var(--main-color-six);
   background-color: #440f51;
 }
 

@@ -17,6 +17,14 @@
   background-image: url("../img/our/playstation.png");
 }
 
+.our {
+  height: 816px;
+}
+
+.div__our {
+  height: 100%;
+}
+
 .our__list {
   display: flex;
   justify-content: space-between;

@@ -23,7 +23,7 @@
   font-weight: 400;
   font-size: 28px;
   line-height: 50px;
-  color: #ffffff;
+  color: var(--main-color-six);
   padding-left: 100px;
 }
 
@@ -86,7 +86,7 @@
   line-height: 30px;
   text-transform: uppercase;
   text-align: center;
-  color: #ffffff;
+  color: var(--main-color-six);
   border: transparent;
   transition-duration: 1s;
   transition-property: background-color;

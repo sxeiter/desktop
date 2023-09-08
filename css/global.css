@@ -10,8 +10,8 @@ html {
 }
 
 body {
-  background-color: #1b1a1b;
-  color: #fff;
+  background-color: var(--mail-color-eight);
+  color: var(--main-color-six);
   min-width: 320px;
   min-height: 100vh;
   font-family: Arial, sans-serif;
