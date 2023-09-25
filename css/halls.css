@@ -1,14 +1,29 @@
 .old-vibes {
   background-image: url("../img/rooms/80-vibes.png");
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
 }
 .star-wars {
   background-image: url("../img/rooms/star-wars.png");
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
 }
 .wild-west {
   background-image: url("../img/rooms/wild-west.png");
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
 }
 .neon-style {
   background-image: url("../img/rooms/neon-style.png");
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.halls__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 15px;
 }
 
 .halls__item {
@@ -21,10 +36,6 @@
   display: inline-block;
   vertical-align: top;
   width: 580px;
-}
-
-.halls__item:not(:nth-child(2n)) {
-  margin-right: 15px;
 }
 
 .halls__link {
@@ -44,8 +55,4 @@
 
 .halls__link:hover {
   color: var(--main-color-two);
-}
-
-.halls__item:not(:nth-last-child(-n + 2)) {
-  margin-bottom: 20px;
 }

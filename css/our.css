@@ -1,20 +1,32 @@
 .vr {
   background-image: url("../img/our/vr.png");
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 .audio {
   background-image: url("../img/our/dj.png");
+  grid-column: 2/3;
+  grid-row: 1/2;
 }
 .karaoke {
   background-image: url("../img/our/karaoke.png");
+  grid-column: 3/4;
+  grid-row: 1/2;
 }
 .table-game {
   background-image: url("../img/our/domino.png");
+  grid-column: 1/2;
+  grid-row: 2/3;
 }
 .cinema {
   background-image: url("../img/our/netflix.png");
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
 .game-station {
   background-image: url("../img/our/playstation.png");
+  grid-column: 3/4;
+  grid-row: 2/3;
 }
 
 .our {
@@ -26,10 +38,10 @@
 }
 
 .our__list {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 40px 20px;
-  flex-wrap: wrap;
 }
 
 .our__item {
