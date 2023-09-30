@@ -30,7 +30,7 @@
 }
 
 .our {
-  height: 816px;
+  max-height: 816px;
 }
 
 .div__our {
@@ -45,7 +45,7 @@
 }
 
 .our__item {
-  width: 380px;
+  max-width: 380px;
   height: 228px;
   background-color: wheat;
   transition-duration: 1s;
@@ -75,4 +75,108 @@
   max-width: 300px;
   bottom: 40px;
   left: 40px;
+}
+
+@media (max-width: 1100px) {
+  .our__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px 20px;
+  }
+
+  .our__item {
+    max-width: 287px;
+    height: 172px;
+    background-size: contain;
+
+    background-repeat: no-repeat;
+  }
+  .our__text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    position: absolute;
+    max-width: 300px;
+    bottom: 30px;
+    left: 20px;
+  }
+  .our__item:nth-child(3n - 1) {
+    transform: translateY(45px);
+  }
+}
+
+@media (max-width: 850px) {
+  .our__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px 20px;
+  }
+  .vr {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .audio {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .karaoke {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .table-game {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .cinema {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .game-station {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .our__item {
+    max-width: 334px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .our__text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    position: absolute;
+    max-width: 300px;
+    bottom: 30px;
+    left: 20px;
+  }
+  .our__item:nth-child(3n - 1) {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 480px) {
+  .our__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .our__item {
+    width: 135px;
+    height: 75px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .our__text {
+    font-size: 10px;
+    line-height: 10px;
+    position: absolute;
+    max-width: 120px;
+    left: 10px;
+    top: 50%;
+  }
 }

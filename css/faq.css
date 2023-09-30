@@ -85,3 +85,12 @@
   transition-duration: 1s;
   transition-property: background-image;
 }
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 320px) {
+}
